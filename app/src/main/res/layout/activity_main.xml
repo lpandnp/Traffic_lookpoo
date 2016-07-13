@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pcom_5.traffic_lookpoo.MainActivity"
+    android:background="@drawable/wall19">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/txtTitle"
+        android:textSize="@dimen/h1"
+        android:textColor="@color/colortexttitle"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textbottom"
+        android:id="@+id/buttonsound"
+        android:onClick="clickSound"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="false"
+        android:background="#f18585" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:textFilterEnabled="false"
+        android:background="#14faf9f9"
+        android:layout_below="@+id/txtTitle"
+        android:layout_above="@+id/buttonsound"
+        android:layout_margin="20dp" />
+</RelativeLayout>

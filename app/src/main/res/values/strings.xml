@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Traffic_lookpoo</string>
+    <string name="lookpoo">lookpoo</string>
+    <string name="title">ป้ายจราจร ต้องรู้</string>
+    <string name="test">ทดสอบ</string>
+    <string name="textbottom">เสียง</string>
+</resources>
